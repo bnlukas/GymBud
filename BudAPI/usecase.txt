@@ -1,0 +1,25 @@
+En bruger skal kunne oprette en aktivitet. 
+En bruger skal kunne slette en aktivitet.
+En bruger skal kunne ændre en aktivitet. 
+
+
+Hent alle posts
+
+
+En bruger skal kunne se alle sine træninger. 
+En bruger skal kunne tilføje venner. 
+En bruger skal kunne tilføje billeder til sit post
+
+En bruger skal have et login. 
+
+En bruger skal kunne tilknytte en muskelgruppe
+En bruger skal kunne tilknytte under muskelgruppe til sin overordnet muskelgruppe
+En bruger skal kunne tilføje vægt til sin muskelgruppe
+
+En bruger kan træne flere ting på en træning. 
+
+En bruger skal kunne se sine venners træning
+
+En bruger skal kunne se hvor mange gange man har trænet på en uge/måned/kvartal/år
+
+FRONTEND Like er BIG MUCSLE EMOJI 
