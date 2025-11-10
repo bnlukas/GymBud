@@ -16,7 +16,7 @@ public class UserModel
     // Relationer
     public List<WorkoutPost> Posts { get; set; } = new();
     public List<CommentModel> Comments { get; set; } = new();
-    // public List<Vote> Votes { get; set; } = new();
+    public List<Vote> Votes { get; set; } = new();
 
     // Venner
     public List<UserFriend> Friends { get; set; } = new();

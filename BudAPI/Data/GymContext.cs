@@ -71,7 +71,7 @@ public class GymContext : DbContext
         // Votes (User + Post)
         modelBuilder.Entity<Vote>()
             .HasOne(v => v.User)
-            .WithMany(u => u.Votes)
+            .WithMany(p => p.Votes)
             .HasForeignKey(v => v.UserId);
 
         modelBuilder.Entity<Vote>()
