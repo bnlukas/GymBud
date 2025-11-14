@@ -1,8 +1,10 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace BudMODELS.Models;
 
 public class CommentModel
 {
-    
+    [Key]
     private string Id { get; set;  } = Guid.NewGuid().ToString();
     public string Content { get; set; } = ""; 
     public DateTime Created { get; set; } = DateTime.Now;

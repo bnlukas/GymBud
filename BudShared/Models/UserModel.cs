@@ -19,17 +19,17 @@ public class UserModel
     public List<Vote> Votes { get; set; } = new();
 
     // Venner
-    public List<UserFriend> Friends { get; set; } = new();
+    // public List<UserFriend> Friends { get; set; } = new();
 
     // Statistik
     public int TotalWorkouts { get; set; }
     public DateTime Created { get; set; } = DateTime.Now;
 }
-public class UserFriend
-{
-    public string UserId { get; set; } = "";
-    public UserModel User { get; set; } = null!;
-
-    public string FriendId { get; set; } = "";
-    public UserModel Friend { get; set; } = null!;
-}
+// public class UserFriend
+// {
+//     public string UserId { get; set; } = "";
+//     public UserModel User { get; set; } = null!;
+//
+//     public string FriendId { get; set; } = "";
+//     public UserModel Friend { get; set; } = null!;
+// }

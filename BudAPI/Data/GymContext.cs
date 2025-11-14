@@ -53,6 +53,7 @@ public class GymContext : DbContext
             .WithMany(u => u.Comments)
             .HasForeignKey(c => c.UserId)
             .OnDelete(DeleteBehavior.Cascade);
+            
 
         // Post -> Comments
         modelBuilder.Entity<CommentModel>()
